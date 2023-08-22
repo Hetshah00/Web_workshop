@@ -1,0 +1,99 @@
+<html>
+  <head>
+    <title> Workshop </title>
+    <style>
+      table,tr,th,td{
+        border: 1px solid black;
+      }
+    </style>
+    <link rel="shortcut icon" href="140.jfif"><!--favicon-->
+  </head>
+  <body>
+    <!-- tables -->
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>age</th>
+          <th>dep</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td colspan="3">hi</td>
+          <td>bye</td>
+          <td>tereko kya</td>
+        </tr>
+      </tbody>
+    </table>
+    <!-- anchor tag -->
+    <a href="https://www.google.com" target="_top">Google</a>
+
+    <!-- image -->
+    <img src="https://placekitten.com/69" alt="kitten" >
+    <img src="./140.jfif" alt=" aav raha hai">
+
+    <!-- video -->
+    <video src="https://www.youtube.com/embed/tgbNymZ7vqY" height="200px" width="100px" controls ></video>
+
+    <!-- iframe -->
+    
+    <!-- lists -->
+    <ul>
+      <li>a</li>
+      <li>b</li>
+    </ul>
+    <ol type="I">
+      <li>x</li>
+      <li>y</li>
+    </ol>
+
+    <dl>
+      <dt>hi</dt>
+      <dd>way</dd>
+    </dl>
+
+    <!-- form -->
+    <form action="" method="post">
+      <label for="ip">hello:</label>
+      <input type="text" id="ip" placeholder="type">
+
+      <label for="ph">Phone:</label>
+      <input type="number" id="ph" min="0" placeholder="10 digits only" maxlength="10 "><br>
+
+      <label for="ad">Address:</label>
+      <textarea id="ad" cols="30" rows="3"></textarea>
+      <div> 
+        <label>Gender:</label>
+
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="hey">
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="bye">
+      </div>  
+      <div>
+        <label>Anything:</label>
+
+        <label for="cric">Cricket</label>
+        <input type="checkbox" id="cric" name="games">
+        <label for="foot">foosball</label>
+        <input type="checkbox" id="foot" name="games">
+
+      </div>
+      <label for="dob">Date</label>
+      <input type="date" id="dob" max="2023-08-21">
+
+      <label for="file">File:</label>
+      <input type="file" id="file">
+      <!-- dropdown -->
+      <label for="city">City</label>
+      <select multiple name="city" id="city">
+        <option value="ABD">Ahmedabad</option>
+        <option value="SRT">Surat</option>
+        <option value="BRD">Baroda</option>
+      </select>
+      <input type="submit" id="submit" name="submit">
+    </form>
+    
+  </body>
+</html>

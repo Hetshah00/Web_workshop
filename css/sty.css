@@ -1,0 +1,11 @@
+h1{
+  margin-left: 40%;
+  font-size:400%;
+  color: cadetblue;
+}
+tr td{
+  padding: 1rem;
+}
+table,tr,th,td{
+  border: 1px dotted black;
+}
